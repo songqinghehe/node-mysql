@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  <form mothod='post' action='/updata'>
+  唯一号: <input type="text" name="id">
+  用户名：<input type="text" name="uname">
+  密码：<input type="text" name="upass">
+  <input type="submit" value="update data">
+  </form>

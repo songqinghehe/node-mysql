@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  <form mothod='post' action='/indata'>
+  用户名：<input type="text" name="uname">
+  密码：<input type="text" name="upass">
+  <input type="submit" value="insert data">
+  </form>

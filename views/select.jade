@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  <form mothod='post' action='/sedata'>
+  用户名: <input type="text" name="uname">
+  <input type="submit" value="select data">
+  </form>
+  h2= show
+  p= result
